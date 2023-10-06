@@ -9,13 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1"
   },
+  "description": "",
   "dependencies": {
     "prettier": "^3.0.3"
   }
