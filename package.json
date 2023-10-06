@@ -1,16 +1,22 @@
 {
   "name": "weekend-challenge",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "build-style": "sass sass/styles.scss ./public/styles/styles.css",
-    "build-style:dev": "sass --watch sass/styles.scss ./public/styles/styles.css"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.69.0"
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1"
+  },
+  "description": "",
+  "dependencies": {
+    "prettier": "^3.0.3"
   }
 }
