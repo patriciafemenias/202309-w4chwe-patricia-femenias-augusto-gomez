@@ -1,1 +1,12 @@
-{"version":3,"sourceRoot":"","sources":["../../sass/core/_globals.scss","../../sass/variables/_variables.scss","../../sass/components/titles/_main-titles.scss"],"names":[],"mappings":"AAEA;EACE,aCHU;EDIV,OCDqB;;;ADIvB;EACE,WCHe;;;ADMjB;EACE;;;AAGF;EACE;;;AEhBF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA","file":"styles.css"}
+
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../../sass/core/_globals.scss",
+    "../../sass/variables/_variables.scss"
+  ],
+  "names": [],
+  "mappings": "AAEA;EACE,aCHU;EDIV,OCDqB;;;ADIvB;EACE,WCJe;;;ADOjB;EACE",
+  "file": "styles.css"
+}
