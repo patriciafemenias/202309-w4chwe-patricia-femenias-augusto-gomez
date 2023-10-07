@@ -1,0 +1,28 @@
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  justify-content: center;
+  padding: 80px 16px;
+  width: 320px;
+
+  &__title {
+    padding-bottom: 1.25rem;
+    margin: 0;
+    align-self: stretch;
+    font-size: 40px;
+    line-height: normal;
+    padding-top: 10.5px;
+  }
+  &__separator {
+    width: 220px;
+    height: 3px;
+    background-color: #ff7757;
+    margin: 0;
+  }
+  &__parragraph {
+    width: 100%;
+    font-size: 18px;
+  }
+}
