@@ -1,4 +1,14 @@
-h1 {
-  color: blue;
-  font-size: 40px;
+@use "../variables/_variables";
+
+html {
+  font-family: variables.$main-font;
+  color: variables.$secondary-font-color;
+}
+
+body {
+  font-size: variables.$main-font-size;
+}
+
+button {
+  cursor: pointer;
 }
