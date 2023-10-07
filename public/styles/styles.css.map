@@ -1,12 +1,1 @@
-
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": [
-    "../../sass/core/_globals.scss",
-    "../../sass/variables/_variables.scss"
-  ],
-  "names": [],
-  "mappings": "AAEA;EACE,aCHU;EDIV,OCDqB;;;ADIvB;EACE,WCJe;;;ADOjB;EACE",
-  "file": "styles.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../sass/core/_globals.scss","../../sass/variables/_variables.scss","../../sass/components/titles/_main-titles.scss","../../sass/components/_components.scss","../../sass/components/chevron/_chevron.scss","../../sass/core/_resets.scss"],"names":[],"mappings":"AAEA;EACE,aCHU;EDIV,OCDqB;;;ADIvB;EACE,WCHe;;;ADMjB;EACE;;;AAGF;EACE;;;AEdF;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA,ODvBe;;;AC2BnB;EACE;EACA;EACA;;;AAGF;EACE;IACE;;EAEF;IACE;;;AC1CJ;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE;;AAEA;EACE;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAIJ;EACE;;AAEA;EACE;EACA;;;AC1BN;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAGF;EACE,YHnBS;EGoBT;;;AAIJ;EACE;IACE;;;AC5BJ;AAAA;EAEE;;;AAGF;AAAA;AAAA;AAAA;AAAA;EAKE;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;EACA","file":"styles.css"}

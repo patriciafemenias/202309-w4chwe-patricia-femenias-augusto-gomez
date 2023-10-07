@@ -1,3 +1,5 @@
+@use "../../variables/variables";
+
 .title-block {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,6 @@
   align-self: stretch;
   justify-content: center;
   padding: 80px 16px;
-  width: 320px;
 
   &__title {
     padding-bottom: 1.25rem;
@@ -24,5 +25,21 @@
   &__parragraph {
     width: 100%;
     font-size: 18px;
+    color: variables.$parragraph-color;
+  }
+}
+
+.parragraph-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .title-block__title {
+    font-size: 60px;
+  }
+  .title-block__parragraph {
+    font-size: 24px;
   }
 }
