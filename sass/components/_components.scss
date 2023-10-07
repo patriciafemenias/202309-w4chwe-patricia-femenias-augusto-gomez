@@ -1,12 +1,12 @@
 .button {
-  font-family: $main-font;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   border-radius: 12px;
 
   &--dark {
-    background: $primary-color;
+    background: #331811;
 
     &--large {
       font-size: 18px;
@@ -22,7 +22,7 @@
   }
 
   &--light {
-    background: $primary-light-color;
+    background: #ff7757;
 
     &--large {
       width: 146px;
