@@ -1,5 +1,9 @@
 @use "./../../variables/variables";
 
+.section-special-offer {
+  display: flex;
+}
+
 .promo-card {
   width: 288px;
   height: 286px;
@@ -9,8 +13,8 @@
   flex-direction: column;
 
   &__image {
-    width: 437px;
-    height: 286px;
+    width: 288px;
+    max-height: 192px;
     border-radius: 26px 26px 0 0;
     display: flex;
     height: 286px;
@@ -18,6 +22,12 @@
     justify-content: flex-end;
     align-items: flex-start;
     align-self: stretch;
+    object-fit: cover;
+    max-height: 83%;
+  }
+  .promo-card__image__lisbon {
+    object-fit: cover;
+    max-height: 67%;
   }
 
   &__title {
@@ -65,4 +75,8 @@
     color: variables.$primary-color;
     margin-left: 10px;
   }
+}
+
+.section-special-offer {
+  display: flex;
 }
