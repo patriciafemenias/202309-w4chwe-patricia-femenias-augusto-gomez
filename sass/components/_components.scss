@@ -1,0 +1,32 @@
+.button {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 12px;
+
+  &--dark {
+    background: $primary-color;
+
+    &--large {
+      font-size: 18px;
+      width: 146px;
+      height: 21px;
+    }
+
+    &--small {
+      text-transform: uppercase;
+      width: 79px;
+      height: 24px;
+    }
+  }
+
+  &--light {
+    background: $primary-light-color;
+
+    &--large {
+      width: 146px;
+      height: 21px;
+    }
+  }
+}
