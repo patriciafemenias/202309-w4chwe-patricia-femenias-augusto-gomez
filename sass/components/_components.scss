@@ -1,0 +1,32 @@
+.button {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 12px;
+
+  &--dark {
+    background: #331811;
+
+    &--large {
+      font-size: 18px;
+      width: 146px;
+      height: 21px;
+    }
+
+    &--small {
+      text-transform: uppercase;
+      width: 79px;
+      height: 24px;
+    }
+  }
+
+  &--light {
+    background: #ff7757;
+
+    &--large {
+      width: 146px;
+      height: 21px;
+    }
+  }
+}
