@@ -1,12 +1,1 @@
-
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": [
-    "../../sass/core/_globals.scss",
-    "../../sass/variables/_variables.scss"
-  ],
-  "names": [],
-  "mappings": "AAEA;EACE,aCHU;EDIV,OCDqB;;;ADIvB;EACE,WCJe;;;ADOjB;EACE",
-  "file": "styles.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../sass/core/_globals.scss","../../sass/variables/_variables.scss","../../sass/components/titles/_main-titles.scss","../../sass/components/buttons/buttons.scss","../../sass/core/_resets.scss"],"names":[],"mappings":"AAEA;EACE,aCHU;EDIV,OCCsB;;;ADExB;EACE;;;AAGF;EACE;;;AEZF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA;;;ACvBJ;EACE,aFFe;EEGf;EACA;EACA;EACA;;AAEA;EACE,kBFRY;EESZ;;AAEA;EACE;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAIJ;EACE,YFjCkB;;AEmClB;EACE;EACA;EACA;EACA;EACA,OFzCU;;;AGFhB;AAAA;EAEE;;;AAGF;AAAA;AAAA;AAAA;AAAA;EAKE;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA","file":"styles.css"}

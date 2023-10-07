@@ -1,0 +1,47 @@
+@use "./../../variables/variables";
+
+.button {
+  font-family: variables.$secondary-font;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 12px;
+
+  &--dark {
+    background-color: variables.$primary-color;
+    color: #fff;
+
+    &--large {
+      font-size: 20px;
+      padding: 16px 40px 16px 40px;
+      width: 248px;
+      height: 73px;
+    }
+
+    &--medium {
+      padding: 20px;
+      width: 146px;
+      height: 21px;
+      font-size: 18px;
+      padding: 20px;
+    }
+
+    &--small {
+      text-transform: uppercase;
+      padding: 16px 24px;
+      font-size: 20px;
+    }
+  }
+
+  &--light {
+    background: variables.$primary-light-color;
+
+    &--large {
+      font-size: 20px;
+      padding: 16px 40px 16px 40px;
+      width: 248px;
+      height: 73px;
+      color: variables.$primary-color;
+    }
+  }
+}
