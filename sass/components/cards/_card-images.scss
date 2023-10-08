@@ -3,7 +3,7 @@
 .card {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
   margin-bottom: 100px;
 
@@ -21,7 +21,8 @@
     gap: 17px;
     position: absolute;
     width: 248px;
-    margin: 0 0 40px 20px;
+    align-items: flex-start;
+    padding: 0 0 20px 40px;
   }
 
   &__caption {
@@ -43,9 +44,14 @@
   .card__image {
     height: 661px;
     width: 497px;
+    min-width: 500px;
   }
   .cards-container {
     display: flex;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   .card--hidden {

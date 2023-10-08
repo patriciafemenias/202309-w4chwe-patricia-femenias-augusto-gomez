@@ -1,0 +1,36 @@
+@use "../../variables/variables";
+
+.package-card {
+  width: 288px;
+
+  &__location {
+    font-size: 28px;
+  }
+
+  &__image {
+    width: 288px;
+    height: 320px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px 0;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  &__per-day-text {
+    text-transform: uppercase;
+    font-family: variables.$secondary-font;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__details {
+    font-family: variables.$secondary-font;
+    display: flex;
+    justify-content: space-between;
+  }
+}
