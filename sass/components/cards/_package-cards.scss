@@ -2,6 +2,7 @@
 
 .package-card {
   width: 288px;
+  margin-bottom: 80px;
 
   &__location {
     font-size: 28px;
@@ -32,5 +33,50 @@
     font-family: variables.$secondary-font;
     display: flex;
     justify-content: space-between;
+  }
+}
+
+.trip-planners-section > .button-container {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .package-card-container {
+    display: flex;
+    min-width: 1440px;
+    gap: 32px;
+    margin: 100px 0 0 -37px;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .package-card__image {
+    min-width: 320px;
+    height: 468px;
+  }
+
+  .paris {
+    position: relative;
+    top: -75px;
+  }
+
+  :is(.budapest, .barcelona, .roma) {
+    display: none;
+  }
+
+  .trip-planners-section > header > button {
+    display: none;
+  }
+
+  .trip-planners-section .parragraph-container {
+    flex-direction: row-reverse;
+  }
+
+  .trip-planners-section > .button-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
