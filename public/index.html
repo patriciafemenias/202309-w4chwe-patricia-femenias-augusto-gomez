@@ -17,62 +17,64 @@
 
 <body>
   <main>
-    <header class="title-block container">
-      <h1 class="title-block__title">Popular destinations</h1>
-      <div class="title-block__divider"></div>
-      <div class="parragraph-container">
-        <p class="title-block__parragraph">Most popular destinations around the world, from historical places to
-          natural
-          wonders</p>
-        <div class="chevron-container"><i class="fa-solid fa-chevron-left chevron chevron--hidden chevron--left"></i><i
-            class="fa-solid fa-chevron-right chevron chevron--hidden chevron--right"></i>
+    <section class="popular-destination-section">
+      <header class="title-block container">
+        <h1 class="title-block__title">Popular destinations</h1>
+        <div class="title-block__divider"></div>
+        <div class="parragraph-container">
+          <p class="title-block__parragraph">Most popular destinations around the world, from historical places to
+            natural
+            wonders</p>
+          <div class="chevron-container"><i
+              class="fa-solid fa-chevron-left chevron chevron--hidden chevron--left"></i><i
+              class="fa-solid fa-chevron-right chevron chevron--hidden chevron--right"></i>
+          </div>
         </div>
+      </header>
+      <div class="cards-container container">
+        <figure class="card container">
+          <img class="card__image" src="images/berlin.webp" alt="City of Berlin">
+          <figcaption class="card__caption-container">
+            <span class="card__caption">Monument of Berlin</span>
+            <span class="card__caption__location">
+              <i class="fa-solid fa-location-dot"></i>Berlin, Germany
+            </span>
+          </figcaption>
+        </figure>
+        <figure class="card container card--hidden">
+          <img class="card__image" src="images/millenium-bridge.webp" alt="City of Berlin">
+          <figcaption class="card__caption-container">
+            <span class="card__caption">Millenium Bridge</span>
+            <span class="card__caption__location">
+              <i class="fa-solid fa-location-dot"></i>London, United Kingdom
+            </span>
+          </figcaption>
+        </figure>
+        <figure class="card container card--hidden">
+          <img class="card__image" src="images/Venicia.webp" alt="City of Berlin">
+          <figcaption class="card__caption-container">
+            <span class="card__caption">Rialto Bridge</span>
+            <span class="card__caption__location">
+              <i class="fa-solid fa-location-dot"></i>Venice, Italy
+            </span>
+          </figcaption>
+        </figure>
+        <figure class="card container card--hidden">
+          <img class="card__image" src="images/beach.webp" alt="City of Berlin">
+          <figcaption class="card__caption-container">
+            <span class="card__caption">Phi Phi Island</span>
+            <span class="card__caption__location">
+              <i class="fa-solid fa-location-dot"></i>Bali, Thailand
+            </span>
+          </figcaption>
+        </figure>
       </div>
-    </header>
-    <div class="cards-container container">
-      <figure class="card container">
-        <img class="card__image" src="images/berlin.webp" alt="City of Berlin">
-        <figcaption class="card__caption-container">
-          <span class="card__caption">Monument of Berlin</span>
-          <span class="card__caption__location">
-            <i class="fa-solid fa-location-dot"></i>Berlin, Germany
-          </span>
-        </figcaption>
-      </figure>
-      <figure class="card container card--hidden">
-        <img class="card__image" src="images/millenium-bridge.webp" alt="City of Berlin">
-        <figcaption class="card__caption-container">
-          <span class="card__caption">Millenium Bridge</span>
-          <span class="card__caption__location">
-            <i class="fa-solid fa-location-dot"></i>London, United Kingdom
-          </span>
-        </figcaption>
-      </figure>
-      <figure class="card container card--hidden">
-        <img class="card__image" src="images/Venicia.webp" alt="City of Berlin">
-        <figcaption class="card__caption-container">
-          <span class="card__caption">Rialto Bridge</span>
-          <span class="card__caption__location">
-            <i class="fa-solid fa-location-dot"></i>Venice, Italy
-          </span>
-        </figcaption>
-      </figure>
-      <figure class="card container card--hidden">
-        <img class="card__image" src="images/beach.webp" alt="City of Berlin">
-        <figcaption class="card__caption-container">
-          <span class="card__caption">Phi Phi Island</span>
-          <span class="card__caption__location">
-            <i class="fa-solid fa-location-dot"></i>Bali, Thailand
-          </span>
-        </figcaption>
-      </figure>
-    </div>
-    <div class="chevron-container chevron-container-away"><i
-        class="fa-solid fa-chevron-left chevron chevron--left"></i><i
-        class="fa-solid fa-chevron-right chevron chevron--right"></i>
-    </div>
-
-    <div>
+      <div class="chevron-container chevron-container-away"><i
+          class="fa-solid fa-chevron-left chevron chevron--left"></i><i
+          class="fa-solid fa-chevron-right chevron chevron--right"></i>
+      </div>
+    </section>
+    <section class="special-offer-section-container">
       <header class="title-block title-block__promo-card container">
         <h2 class="title-block__title">Special offers</h2>
         <div class="title-block__divider"></div>
@@ -148,7 +150,100 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="trip-planners-section container">
+      <header class="title-block title-block__promo-card">
+        <h2 class="title-block__title">Trip planners</h2>
+        <div class="title-block__divider"></div>
+        <div class="parragraph-container">
+          <div class="chevron-container"><i
+              class="fa-solid fa-chevron-left chevron chevron--hidden chevron--left"></i><i
+              class="fa-solid fa-chevron-right chevron chevron--hidden chevron--right"></i>
+          </div>
+          <p class="title-block__parragraph">20 years from now you will be more disappointed by the things that you
+            didn't do. Stop regretting and start travelling,
+            start throwing off the bowlines.</p>
+        </div>
+        <button class="button button--dark button--large">View all trip plans</button>
+      </header>
+      <div class="package-card-container">
+        <div class="package-card ">
+          <img class="card__image package-card__image" src="images/coliseum.webp" alt="City of Rome">
+          <div class="package-card__text roma">
+            <div class="package-card__per-day-text">
+              <span class="package-card__per-day-text__tour">guided tour</span>
+              <span class="package-card__per-day-text__price">€99/day</span>
+            </div>
+            <h3 class="package-card__location">Rome City Tour</h3>
+            <div class="package-card__details">
+              <span class="package-card__details__icons"><i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i></span>
+              <span class="package-card__details__duration">7 days</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-card paris">
+          <img class="card__image package-card__image" src="images/paris.webp" alt="City of Rome">
+          <div class="package-card__text">
+            <div class="package-card__per-day-text">
+              <span class="package-card__per-day-text__tour">guided tour</span>
+              <span class="package-card__per-day-text__price">€99/day</span>
+            </div>
+            <h3 class="package-card__location">Paris City Tour</h3>
+            <div class="package-card__details">
+              <span class="package-card__details__icons"><i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i></span>
+              <span class="package-card__details__duration">7 days</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-card">
+          <img class="card__image package-card__image" src="images/barcelona.webp" alt="City of Barcelona">
+          <div class="package-card__text barcelona">
+            <div class="package-card__per-day-text">
+              <span class="package-card__per-day-text__tour">guided tour</span>
+              <span class="package-card__per-day-text__price">95€/day</span>
+            </div>
+            <h3 class="package-card__location">Barcelona City Tour</h3>
+            <div class="package-card__details">
+              <span class="package-card__details__icons"><i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i></span>
+              <span class="package-card__details__duration">7 days</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-card ">
+          <img class="card__image package-card__image" src="images/budapest.webp" alt="City of Budapest">
+          <div class="package-card__text budapest">
+            <div class="package-card__per-day-text">
+              <span class="package-card__per-day-text__tour">guided tour</span>
+              <span class="package-card__per-day-text__price">89€/day</span>
+            </div>
+            <h3 class="package-card__location">Budapest City Tour</h3>
+            <div class="package-card__details">
+              <span class="package-card__details__icons"><i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i>
+                <i class="fa-sharp fa-solid fa-star promo-card__icon"></i></span>
+              <span class="package-card__details__duration">7 days</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="button button--dark button--large">View all trip plans</button>
+      </div>
+    </section>
   </main>
 </body>
 

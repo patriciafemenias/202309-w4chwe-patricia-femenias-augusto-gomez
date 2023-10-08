@@ -43,10 +43,12 @@
   .title-block__parragraph {
     font-size: 24px;
   }
-  .title-block__promo-card {
+  .special-offer-section-container > .title-block__promo-card {
     align-items: flex-end;
   }
-  .title-block__promo-card :is(.title-block__title, p) {
+  .special-offer-section-container
+    > .title-block__promo-card
+    :is(.title-block__title, p) {
     text-align: end;
   }
 }
