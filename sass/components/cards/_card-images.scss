@@ -40,6 +40,10 @@
   display: none;
 }
 
+.card__caption__location > span {
+  margin: 0 15px;
+}
+
 @media (min-width: 600px) {
   .card__image {
     height: 661px;
@@ -49,6 +53,7 @@
   .cards-container {
     display: flex;
     overflow-x: scroll;
+    margin: 0;
     &::-webkit-scrollbar {
       display: none;
     }

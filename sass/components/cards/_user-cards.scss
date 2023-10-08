@@ -1,0 +1,70 @@
+@use "../../variables/variables";
+
+.travellers-experience-section .title-block__title {
+  font-size: 48px;
+}
+
+.user-experience {
+  &__image {
+    border-radius: 50%;
+    position: relative;
+    top: 37px;
+    width: 100px;
+    height: 100px;
+    left: 27px;
+  }
+
+  &__text-block {
+    background-color: #f5f6f7;
+    border-radius: 12px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 32px;
+    width: 288px;
+  }
+
+  &__parragraph {
+    font-family: "Rubik", sans-serif;
+    line-height: 23px;
+  }
+
+  &__user-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+  }
+}
+
+.user-experience + article {
+  display: none;
+}
+
+.travellers-experience-section > .chevron-container {
+  margin-top: 100px;
+}
+
+@media (min-width: 600px) {
+  .user-experiences-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1440px;
+  }
+
+  .user-experience {
+    width: 562px;
+    margin: 0 50px;
+    &__text-block {
+      width: 100%;
+    }
+  }
+
+  .user-experience + article {
+    display: block;
+  }
+
+  .travellers-experience-section > .chevron-container {
+    margin-top: 160px;
+    justify-content: flex-end;
+  }
+}

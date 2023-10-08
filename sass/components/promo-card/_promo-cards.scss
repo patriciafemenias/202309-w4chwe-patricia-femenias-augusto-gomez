@@ -41,6 +41,7 @@
     gap: 10px;
     align-self: stretch;
     background-color: #fff8f1;
+    border-radius: 0 0 33px 33px;
   }
 
   &__icon {
@@ -78,11 +79,18 @@
   display: none;
 }
 
+.special-offer-section-container > .chevron-container {
+  margin-top: 60px;
+}
+
 @media (min-width: 600px) {
   .promo-card {
     width: 438px;
   }
   .promo-card--hidden {
     display: flex;
+  }
+  .special-offer-section-container > .chevron-container {
+    display: none;
   }
 }
