@@ -16,7 +16,7 @@
     line-height: normal;
     padding-top: 10.5px;
   }
-  &__separator {
+  &__divider {
     width: 220px;
     height: 3px;
     background-color: #ff7757;
@@ -26,6 +26,7 @@
     width: 100%;
     font-size: 18px;
     color: variables.$parragraph-color;
+    font-family: variables.$secondary-font;
   }
 }
 
@@ -41,5 +42,11 @@
   }
   .title-block__parragraph {
     font-size: 24px;
+  }
+  .title-block__promo-card {
+    align-items: flex-end;
+  }
+  .title-block__promo-card :is(.title-block__title, p) {
+    text-align: end;
   }
 }
